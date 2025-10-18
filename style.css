@@ -161,15 +161,14 @@ color: #000;
 
 main {
     display: flex;
-    gap: 30px;
-    justify-content: center;
+ justify-content:center ;
     padding-bottom: 20px;
     padding-top: 20px;
 }
 .box{
 display: flex;
 justify-content: center;
-gap: 10px;
+gap: 20px;
 flex-wrap: wrap;
 width: 480px;
 }
@@ -191,7 +190,7 @@ border-bottom-left-radius:20px ;
 border-top-right-radius:20px ;
 border-top-left-radius:20px ;
 border: none;
-justify-content: center;
+justify-content:center;
 align-items: center;
 padding-top: 6px;
 margin-right: 74px;
@@ -207,6 +206,9 @@ align-items: center;
     width: 500px;
    padding-left: 70px;
 }
+
+
+
 .header__text3 h1 {
     font-weight: 700;
     font-size: 45px;
@@ -232,6 +234,8 @@ justify-content:center;
 gap:10px ;
 margin-top: 140px;
 }
+
+
 .divv{
 background-color: #FF7A50;
 height: 312px;
