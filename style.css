@@ -1,0 +1,275 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+}
+.container{
+max-width: 90%;
+margin: 0 auto;
+}
+ul{
+display: flex;
+gap: 30px;
+align-items: center;
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ul a {
+transition: 500ms;
+font-size: 18px;
+color: #363853;
+text-decoration: none;
+}
+
+ul a:hover {
+color: #FF6838;
+}
+.right{
+display: flex;
+gap: 30px;
+}
+.btn{
+padding:10px 10px ;
+background-color:#FF7A50 ;
+border: none;
+border-radius:5px ;
+color:white;
+width:90px ;
+height:40.408084869384766px ;
+}
+.img{
+display: flex;
+width:19.5 ;
+height:26.83px ;
+align-items: center;
+padding-top: 10px;
+}
+.header__text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    width: 415px;
+    color: #363853;
+}
+.header__text span{
+color: #FF7A50;
+}
+
+.header__text p {
+    font-weight: 300;
+    font-size: 20px;
+    width: 450px;
+    line-height: 32px;
+    color: #363853;;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+
+.btn_1 {
+    background-color: #FF7A50;
+    border: none;
+    width: 197px;
+    height: 49px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    margin-right: 20px;
+}
+.header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn_2{
+    border: none;
+    width: 197px;
+    height: 49px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #363853;
+    background-color: white;
+}
+.tex{
+flex-direction: row-reverse;
+}
+.btn_3{
+display: flex;
+color: white;
+border-bottom-left-radius:30px ;
+border-top-right-radius:30px ;
+border-top-left-radius:30px ;
+border-bottom-right-radius:1px ;
+background-color: #FF7A50;
+width: 176px;
+height: 58px;
+font-size: 20px;
+border: none;
+align-items: center;
+justify-content: center;
+margin-top: 200px;
+}
+.header__text2 h1 {
+    font-weight: 700;
+    font-size: 45px;
+    width: 500px;
+    color: #363853;
+    margin-bottom: 100px;
+}
+.header__text2 span{
+color: #FF7A50;
+}
+
+.header__text2 p {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    width: 400px;
+    line-height: 32px;
+    color: #363853;;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+.header_content2{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.span{
+color: #FF7A50;
+}
+.h1{
+text-align: center;
+color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.box{
+display: flex;
+justify-content: center;
+gap: 10px;
+flex-wrap: wrap;
+width: 480px;
+}
+main h1{
+color: #363853;
+}
+main p{
+color: #363853;
+}
+.imgg{
+width: 18.511165618896484px;
+height: 20.059720993041992px;
+}
+main button{
+width: 79px;
+height: 36px;
+background-color: #FF7A50;
+border-bottom-left-radius:20px ;
+border-top-right-radius:20px ;
+border-top-left-radius:20px ;
+border: none;
+justify-content: center;
+align-items: center;
+padding-top: 6px;
+margin-right: 74px;
+}
+.parent{
+display: flex;
+gap: 20px;
+align-items: center;
+
+}
+.box h1 {
+    font-weight: 700;
+    width: 500px;
+   padding-left: 70px;
+}
+.header__text3 h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #363853;
+    margin-bottom: 100px;
+}
+.header__text3 span{
+color: #FF7A50;
+}
+
+.header__text3 p {
+    display: flex;
+    font-weight: 300;
+    font-size: 20px;
+    width: 481px;
+    color: #363853;;
+    height: 100px;
+}
+.header_content3{
+display: flex;
+align-items: center;
+justify-content:center;
+gap:10px ;
+margin-top: 140px;
+}
+.divv{
+background-color: #FF7A50;
+height: 312px;
+width: 1170px;
+margin: 0 auto;
+border-radius: 20px;
+background-image:url(Mask\ Group\ \(2\).png) ;
+}
+.divv h1{
+display: flex;
+color: white;
+justify-content: center;
+padding-top: 60px;
+font-size: 40px;
+margin-top: 120px;
+}
+.divv p{
+color: #363853;
+background-color: white;
+width: 838.5px;
+height: 80px;
+border-radius: 70px;
+display: flex;
+margin: 0 auto;
+margin-top: 100px;
+justify-content: space-between;
+font-size: 18px;
+align-items: center;
+padding-left: 40px;
+}
+.divv button{
+color: white;
+border-radius: 70px;
+background-color: #FF7A50;
+width: 191.1px;
+height: 58.5px;
+border: none;
+margin-top: 1px;
+margin-right: 10px;
+font-size: 20px;
+}
